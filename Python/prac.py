@@ -16,7 +16,12 @@
 
 
 
-for i in range(4):
-    if i==2:
-        continue
-    print(i)
+# for i in range(4):
+#     if i==2:
+#         continue
+#     print(i)
+
+
+n = int(input())
+for i in range(10,0,-1):
+    print(n*i)
